@@ -1,0 +1,12 @@
+/* Navigaton*/
+@media only screen and (max-width:600px){
+  nav{
+    top:0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name{
+    display: none;
+  }
+}
