@@ -22,7 +22,9 @@ li{
  }
 
  li{
-   border:1px solid white;
+   display: flex;
+   align-items: center;
+   border:1px solid rgb(25,62,80);
  }
 
 }
