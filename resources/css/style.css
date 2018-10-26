@@ -1,12 +1,21 @@
 /* Navigaton*/
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(80,145,176);
+}
+
 @media only screen and (max-width:600px){
-  nav{
-    top:0px;
-    display: flex;
-    flex-direction: column;
-  }
 
   #name{
     display: none;
   }
+ ul{
+   display: flex;
+   flex-direction: column;
+ }
+
 }
