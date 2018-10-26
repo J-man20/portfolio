@@ -8,10 +8,22 @@ li{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding:20px 80px;
+
 }
 
-@media only screen and (max-width:600px){
+li a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width:1072px){
+li{
+  padding:20px 40px;
+}
+
+}
+
+@media only screen and (max-width:680px){
 
   #name{
     display: none;
@@ -25,6 +37,10 @@ li{
    display: flex;
    align-items: center;
    border:1px solid rgb(25,62,80);
+ }
+
+ li:hover{
+   background-color: rgb(14,38,50);
  }
 
 }
