@@ -13,7 +13,7 @@ li{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding:20px 80px;
+  padding:20px 85px;
 }
 
 li a{
@@ -35,7 +35,7 @@ li a{
 
 li a{
   color:rgb(40,88,111);
-  padding:10px;
+
 }
 
 li a:hover{
