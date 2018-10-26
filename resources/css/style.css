@@ -25,20 +25,23 @@ li a{
   font-size: 1.2rem;
 }
 
-.active a{
+#name:hover{
+  background-color: transparent;
+}
+
+.active{
   color:rgb(14,38,50);
 }
 
-.active a:hover{
+.active:hover{
   color:rgb(40,88,111);
 }
 
 li a{
   color:rgb(40,88,111);
-
 }
 
-li a:hover{
+li:hover{
   background-color: rgb(14,38,50);
 }
 
@@ -104,7 +107,7 @@ li{
   display: flex;
   justify-content: flex-start;
   color:rgb(58,114,141);
-  font-size: 3rem;
+  font-size: 3.5rem;
   padding: 226px 0;
 }
 
