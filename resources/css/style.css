@@ -99,6 +99,14 @@ li{
   padding: 226px 0;
 }
 
+.description{
+  position: relative;
+  bottom:200px;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
 /*Footer*/
 footer{
   display: flex;
