@@ -29,8 +29,17 @@ li a{
   color:rgb(14,38,50);
 }
 
+.active a:hover{
+  color:rgb(40,88,111);
+}
+
 li a{
   color:rgb(40,88,111);
+  padding:10px;
+}
+
+li a:hover{
+  background-color: rgb(14,38,50);
 }
 
 @media only screen and (max-width:1109px){
@@ -114,6 +123,7 @@ footer{
   justify-content: space-around;
   align-items: center;
   background-color: rgb(14,38,50);
+  padding:15px;
 }
 
 .copyrights, .fa-envelope{
