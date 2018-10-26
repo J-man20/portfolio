@@ -82,6 +82,7 @@ li{
   justify-content: flex-end;
   color:rgb(25,62,80);
   font-size: 3rem;
+  padding: 226px 0;
 }
 
 .right-side{
@@ -95,4 +96,18 @@ li{
   justify-content: flex-start;
   color:rgb(58,114,141);
   font-size: 3rem;
+  padding: 226px 0;
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(14,38,50);
+}
+
+.copyrights, .fa-envelope{
+  color:rgb(80,145,176);
 }
