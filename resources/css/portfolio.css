@@ -3,6 +3,10 @@ html{
   font-size: 18px;
 }
 
+body{
+  background-color: rgb(40,88,111);
+}
+
 /* Navigaton*/
 nav ul{
   display: flex;
@@ -77,6 +81,28 @@ nav li:hover{
    color:rgb(40,88,111);
  }
 
+}
+
+/*Portfolio header*/
+h1{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2rem;
+}
+
+/*Learned from Codecademy*/
+@media only screen and (max-width:710px){
+.text{
+  padding:10px;
+  text-align: center;
+}
+
+.learned{
+  padding: 10px 0 10px 40px;
+}
+.projects{
+  padding-left:10px;
+}
 }
 
 /*Footer*/
