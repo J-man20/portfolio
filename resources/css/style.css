@@ -112,12 +112,21 @@ li{
   padding: 190px 0;
 }
 
-.description{
-  position: relative;
-  bottom:180px;
-  text-align: center;
+.front{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dev{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.front, .dev{
+  position:relative;
+  bottom:160px;
   font-size: 3rem;
-  color: white;
+  color:white;
 }
 
 /*Footer*/
