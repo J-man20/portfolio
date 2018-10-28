@@ -1,0 +1,94 @@
+/*Universal*/
+html{
+  font-size: 18px;
+}
+
+/* Navigaton*/
+nav ul{
+  display: flex;
+  background-color: rgb(80,145,176);
+}
+
+nav li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px 85px;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+#name{
+  color:white;
+  font-size: 1.2rem;
+}
+
+#name:hover{
+  background-color: transparent;
+}
+
+.active a{
+  color:rgb(14,38,50);
+}
+
+.active:hover a{
+  color:rgb(40,88,111);
+}
+
+nav li a{
+  color:rgb(40,88,111);
+}
+
+nav li:hover{
+  background-color: rgb(14,38,50);
+}
+
+@media only screen and (max-width:1109px){
+nav li{
+  padding:20px 40px;
+}
+
+}
+
+@media only screen and (max-width:710px){
+
+  #name{
+    display: none;
+  }
+nav ul{
+   display: flex;
+   flex-direction: column;
+ }
+
+nav li{
+   display: flex;
+   align-items: center;
+   border:1px solid rgb(25,62,80);
+ }
+
+nav li:hover{
+   background-color: rgb(14,38,50);
+ }
+
+ .active a{
+   color:rgb(40,88,111);
+ }
+
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(14,38,50);
+  padding:15px;
+}
+
+.copyrights, .fa-envelope{
+  color:rgb(80,145,176);
+}
