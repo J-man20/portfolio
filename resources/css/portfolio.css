@@ -87,13 +87,47 @@ nav li:hover{
 h1{
   text-align: center;
   padding-top: 20px;
+  color:white;
   font-size: 2rem;
 }
 
+@media only screen and (max-width:1109px){
+  h1{
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width:710px) {
+  h1{
+    text-align: center;
+  }
+}
+
 /*What I Learned from Codecademy*/
+.text{
+  padding:20px;
+  text-align: center;
+}
+
+.learned{
+  padding: 10px 0 10px 40px;
+}
+@media only screen and (max-width:1109px) {
+  .text{
+    padding:20px;
+    text-align: center;
+  }
+
+  .learned{
+    padding: 10px 0 10px 40px;
+  }
+
+}
+
 @media only screen and (max-width:710px){
 .text{
-  padding:10px;
+  padding:20px;
   text-align: center;
 }
 
@@ -104,9 +138,26 @@ h1{
 }
 
 /*Links to project*/
+.projects{
+  padding-left:10px;
+}
+.jumpstart, .academy, .optics, .teacozy{
+  padding-top:10px;
+}
+
+@media only screen and (max-width:1109px) {
+  .projects{
+    padding: 10px 20px;
+  }
+  .jumpstart, .academy, .optics, .teacozy{
+    padding-top:10px;
+  }
+
+}
+
 @media only screen and (max-width:710px) {
   .projects{
-    padding-left:10px;
+    padding-left:30px;
   }
   .jumpstart, .academy, .optics, .teacozy{
     padding-top:10px;
@@ -115,9 +166,64 @@ h1{
 }
 
 /*Graphics*/
+.graphics{
+  padding: 20px;
+}
+.graphics p{
+  padding-top: 5px;
+}
+.graphics ul{
+  padding-top: 5px;
+}
+.stuff{
+  padding:0 0 20px 10px;
+}
+
+@media only screen and (max-width:1109px) {
+  .graphics{
+    padding: 20px;
+  }
+  .graphics p{
+    padding-top: 5px;
+  }
+  .graphics ul{
+    padding-top: 5px;
+  }
+  .stuff{
+    padding:0 0 20px 10px;
+  }
+
+}
+
 @media only screen and (max-width:710px) {
   .graphics{
-    padding: 10px;
+    padding-left: 30px;
+  }
+  .graphics p{
+    padding-top: 5px;
+  }
+  .graphics ul{
+    padding-top: 5px;
+  }
+  .stuff{
+    padding:0 0 20px 25px;
+  }
+
+}
+
+/*Video*/
+@media only screen and (max-with:710px) {
+.cvp{
+  position: relative;
+  left:10px;
+
+}
+
+ video{
+    width:100%;
+    height:auto;
+    display: block;
+    margin: 0 auto;
   }
 
 }
