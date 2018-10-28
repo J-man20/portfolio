@@ -90,7 +90,7 @@ h1{
   font-size: 2rem;
 }
 
-/*Learned from Codecademy*/
+/*What I Learned from Codecademy*/
 @media only screen and (max-width:710px){
 .text{
   padding:10px;
@@ -100,10 +100,28 @@ h1{
 .learned{
   padding: 10px 0 10px 40px;
 }
-.projects{
-  padding-left:10px;
+
 }
+
+/*Links to project*/
+@media only screen and (max-width:710px) {
+  .projects{
+    padding-left:10px;
+  }
+  .jumpstart, .academy, .optics, .teacozy{
+    padding-top:10px;
+  }
+
 }
+
+/*Graphics*/
+@media only screen and (max-width:710px) {
+  .graphics{
+    padding: 10px;
+  }
+
+}
+
 
 /*Footer*/
 footer{
