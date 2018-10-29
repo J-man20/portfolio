@@ -88,12 +88,13 @@ h1{
   text-align: center;
   padding-top: 20px;
   color:white;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 @media only screen and (max-width:1109px){
   h1{
     text-align: center;
+    font-size: 2rem;
   }
 
 }
@@ -113,6 +114,12 @@ h1{
 .learned{
   padding: 10px 0 10px 40px;
 }
+
+.learned ul{
+  padding-top: 10px;
+  list-style-type: disc;
+}
+
 @media only screen and (max-width:1109px) {
   .text{
     padding:20px;
@@ -141,8 +148,19 @@ h1{
 .projects{
   padding-left:10px;
 }
+
 .jumpstart, .academy, .optics, .teacozy{
   padding-top:10px;
+}
+
+.jumpstart a, .academy a, .optics a, .teacozy a{
+  color: black;
+  text-decoration: underline;
+}
+
+.jumpstart a:hover, .academy a:hover, .optics a:hover, .teacozy a:hover{
+  color:rgb(80,145,176);
+  text-decoration: line-through;
 }
 
 @media only screen and (max-width:1109px) {
@@ -174,6 +192,8 @@ h1{
 }
 .graphics ul{
   padding-top: 5px;
+  padding-left: 20px;
+  list-style-type: disc;
 }
 .stuff{
   padding:0 0 20px 10px;
