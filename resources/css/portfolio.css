@@ -112,7 +112,7 @@ h1{
 }
 
 .learned{
-  padding: 10px 0 10px 40px;
+  padding: 10px 0 10px 60px;
 }
 
 .learned ul{
@@ -146,7 +146,7 @@ h1{
 
 /*Links to project*/
 .projects{
-  padding-left:10px;
+  padding-left:40px;
 }
 
 .jumpstart, .academy, .optics, .teacozy{
@@ -154,6 +154,7 @@ h1{
 }
 
 .jumpstart a, .academy a, .optics a, .teacozy a{
+  font-size: 1.2rem;
   color: black;
   text-decoration: underline;
 }
@@ -185,7 +186,7 @@ h1{
 
 /*Graphics*/
 .graphics{
-  padding: 20px;
+  padding: 20px 0 0 40px;
 }
 .graphics p{
   padding-top: 5px;
@@ -196,7 +197,7 @@ h1{
   list-style-type: disc;
 }
 .stuff{
-  padding:0 0 20px 10px;
+  padding:15px 0 20px 40px;
 }
 
 @media only screen and (max-width:1109px) {
