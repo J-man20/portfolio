@@ -83,6 +83,42 @@ nav li:hover{
 
 }
 
+/*About Me */
+h1{
+  text-align: center;
+  padding-top: 20px;
+  color:white;
+  font-size: 2.5rem;
+}
+
+@media only screen and (max-width:710px) {
+  h1{
+    font-size: 2rem;
+  }
+
+  .headshot{
+    padding: 20px 0 0 100px;
+  }
+
+  .headshot img{
+    width:70%;
+    height:auto;
+
+  }
+.story{
+  padding: 20px;
+}
+}
+
+/*Fun Facts */
+@media only screen and (max-width:710px) {
+  .goliathon img{
+    width:70%;
+    height:auto;
+  }
+
+}
+
 
 /*Footer*/
 footer{
