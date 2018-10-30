@@ -233,22 +233,14 @@ h1{
 }
 
 /*Video*/
-@media only screen and (max-with:710px) {
 .cvp{
-  position: relative;
-  left:10px;
-
+  padding:10px 0 10px 40px;
 }
 
- video{
-    width:100%;
-    height:auto;
-    display: block;
-    margin: 0 auto;
-  }
-
+video{
+  width:70%;
+  height:auto;
 }
-
 
 /*Footer*/
 footer{
