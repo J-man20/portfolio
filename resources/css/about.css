@@ -95,6 +95,7 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-right: 20px;
 }
 
 .headshot{
@@ -104,7 +105,6 @@ h1{
 .story{
   width:60%;
   align-self: center;
-
 }
 
 @media only screen and (max-width:1109px) {
@@ -138,6 +138,28 @@ h1{
 }
 
 /*Fun Facts */
+.funfacts{
+  padding-left: 50px;
+}
+
+.funfacts h3{
+  text-decoration: underline;
+}
+
+ ol{
+  list-style-type:decimal;
+}
+
+.goliathon{
+  padding-left: 600px;
+  padding-bottom: 20px;
+}
+
+.goliathon img{
+  width:60%;
+  height: auto;
+}
+
 @media only screen and (max-width:1109px) {
 .facts{
   display: flex;
