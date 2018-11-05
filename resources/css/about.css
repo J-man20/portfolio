@@ -145,7 +145,7 @@ h1{
 
 /*Fun Facts */
 .funfacts{
-  padding-left: 50px;
+  padding: 0 0 20px 50px;
 }
 
 .funfacts h3{
@@ -161,7 +161,7 @@ h1{
 }
 
 .goliathon{
-  padding-bottom: 20px;
+  padding: 0 0 20px 40px;
 }
 
 .goliathon img{
