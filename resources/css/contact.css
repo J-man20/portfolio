@@ -84,6 +84,21 @@ nav li:hover{
 }
 
 /*Contact info*/
+h1{
+  color:white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.contact{
+  padding:30px 20px 430px 20px;
+  line-height: 1.2rem;
+}
+
+.email{
+  color:white;
+  font-size: 1.2rem;
+}
+
 @media only screen and (max-width:1109px) {
 h1{
   font-size: 2.5rem;
