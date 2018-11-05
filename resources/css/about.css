@@ -156,6 +156,10 @@ h1{
   list-style-type:decimal;
 }
 
+.funfacts li{
+  padding-top:10px;
+}
+
 .goliathon{
   padding-bottom: 20px;
 }
@@ -170,15 +174,14 @@ h1{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0 20px 0;
+  padding: 50px 0 20px 100px;
 }
   .funfacts{
-    /*width: 50%;*/
     padding:20px 30px;
   }
 
   .goliathon img{
-    width:50%;
+    width:60%;
     height:auto;
 
   }
@@ -191,7 +194,7 @@ h1{
   padding-top: 0px;
 }
   .funfacts{
-    padding:20px 0 20px 40px;
+    padding:20px 100px 20px 0;
   }
   .goliathon{
     padding: 0 0 20px 100px;
