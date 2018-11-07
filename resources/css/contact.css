@@ -1,3 +1,7 @@
+/*fonts
+font-family: 'Varela Round', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
 /*Universal*/
 html{
   font-size: 18px;
@@ -18,7 +22,8 @@ nav li{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding:20px 85px;
+  padding:20px 75px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 nav li a{
@@ -88,8 +93,11 @@ h1{
   color:white;
   font-size: 2.5rem;
   text-align: center;
+  padding-top: 20px;
+  font-family: 'Varela Round', sans-serif;
 }
 .contact{
+  font-family: 'Open Sans', sans-serif;
   padding:30px 20px 430px 20px;
   line-height: 1.2rem;
 }
@@ -137,6 +145,10 @@ footer{
   background-color: rgb(14,38,50);
   padding:15px;
 
+}
+
+.copyrights{
+  font-family: 'Varela Round', sans-serif;
 }
 
 .copyrights, .fa-envelope{
