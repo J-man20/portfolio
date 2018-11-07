@@ -1,3 +1,7 @@
+/*fonts
+font-family: 'Varela Round', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
 /*Universal*/
 html{
   font-size: 18px;
@@ -18,7 +22,8 @@ nav li{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding:20px 85px;
+  padding:20px 75px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 nav li a{
@@ -89,6 +94,7 @@ h1{
   padding-top: 20px;
   color:white;
   font-size: 2.5rem;
+  font-family: 'Varela Round', sans-serif;
 }
 
 @media only screen and (max-width:1109px){
@@ -109,15 +115,25 @@ h1{
 .text{
   padding:20px;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .learned{
   padding: 10px 0 10px 60px;
 }
 
+.learned h3{
+  font-family: 'Varela Round', sans-serif;
+  color:white;
+}
+
 .learned ul{
   padding-top: 10px;
   list-style-type: disc;
+}
+
+.learned li{
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width:1109px) {
@@ -146,11 +162,20 @@ h1{
 
 /*Links to project*/
 .projects{
-  padding-left:40px;
+  padding: 20px 0 0 40px;
+}
+
+.projects h3{
+  font-family: 'Varela Round', sans-serif;
+  color:white;
 }
 
 .jumpstart, .academy, .optics, .teacozy{
   padding-top:10px;
+}
+
+.jumpstart h3, .academy h3, .optics h3, .teacozy h3{
+  font-family: 'Varela Round', sans-serif;
 }
 
 .jumpstart a, .academy a, .optics a, .teacozy a{
@@ -162,6 +187,10 @@ h1{
 .jumpstart a:hover, .academy a:hover, .optics a:hover, .teacozy a:hover{
   color:rgb(80,145,176);
   text-decoration: line-through;
+}
+
+.jumpstart p, .academy p, .optics p, .teacozy p{
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width:1109px) {
@@ -188,16 +217,30 @@ h1{
 .graphics{
   padding: 20px 0 0 40px;
 }
+
+.graphics h3{
+  font-family: 'Varela Round', sans-serif;
+}
+
 .graphics p{
+  font-family: 'Open Sans', sans-serif;
   padding-top: 5px;
 }
+
 .graphics ul{
   padding-top: 5px;
   padding-left: 20px;
   list-style-type: disc;
 }
+
+.graphics li{
+  font-family: 'Open Sans', sans-serif;
+}
+
 .stuff{
-  padding:15px 0 20px 40px;
+  font-family: 'Open Sans', sans-serif;
+  padding:20px 0 20px 40px;
+  color:white;
 }
 
 @media only screen and (max-width:1109px) {
@@ -250,6 +293,10 @@ footer{
   align-items: center;
   background-color: rgb(14,38,50);
   padding:15px;
+}
+
+.copyrights{
+  font-family: 'Varela Round', sans-serif;
 }
 
 .copyrights, .fa-envelope{
