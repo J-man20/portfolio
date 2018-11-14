@@ -3,6 +3,8 @@ $(document).ready(function(){
     slidesToShow:1,
     adaptiveHeight:true,
     adaptiveWidth:true,
+    dots:true,
+    arrows:true,
     responsive: [
     {
       breakpoint: 1109,
