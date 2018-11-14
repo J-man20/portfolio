@@ -249,7 +249,6 @@ h1{
   height: auto;
 }
 
-
 @media only screen and (max-width:1109px) {
   .graphics{
     padding: 20px;
@@ -284,7 +283,7 @@ h1{
 
 /*Video*/
 .cvp{
-  padding:10px 0 10px 100px;
+  padding:30px 0 30px 100px;
 }
 
 video{
