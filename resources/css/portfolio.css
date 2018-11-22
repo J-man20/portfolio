@@ -241,11 +241,14 @@ h1{
 }
 
 .slideshow{
+  width:50em;
+  height: auto;
   margin-left:100px;
 }
 
-.slideshow img{
-  width:70%;
+.adventure img, .waves img, .gold img, .mayo img, .front-view img,
+.side-view img, .woods img, .flowers img{
+  width:100%;
   height: auto;
 }
 
