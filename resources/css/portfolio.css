@@ -266,6 +266,12 @@ h1{
     padding:0 0 20px 10px;
   }
 
+  .slideshow{
+    width:45em;
+    height: auto;
+    margin-left:90px;
+  }
+
 }
 
 @media only screen and (max-width:710px) {
@@ -280,6 +286,12 @@ h1{
   }
   .stuff{
     padding:0 0 20px 25px;
+  }
+
+  .slideshow{
+    width:25em;
+    height: auto;
+    margin-left:70px;
   }
 
 }
