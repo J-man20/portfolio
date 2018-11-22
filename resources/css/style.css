@@ -135,48 +135,6 @@ li{
   color:white;
 }
 
-@media only screen and (max-width:1109px) {
-  .first{
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    color:rgb(25,62,80);
-    font-size: 3.5rem;
-    padding: 190px 0;
-  }
-
-  .last{
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    color:rgb(58,114,141);
-    font-size: 3.5rem;
-    padding: 190px 0;
-  }
-
-}
-
-@media only screen and (max-width:710px) {
-  .first{
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    justify-content: flex-end;
-    color:rgb(25,62,80);
-    font-size: 3.5rem;
-    padding: 190px 0;
-  }
-
-  .last{
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    color:rgb(58,114,141);
-    font-size: 3.5rem;
-    padding: 190px 0;
-  }
-
-}
-
 
 /*Footer*/
 footer{
