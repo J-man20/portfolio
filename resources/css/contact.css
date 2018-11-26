@@ -135,6 +135,8 @@ h1{
 
 /*Footer*/
 footer{
+  position:relative;
+  bottom:0px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
