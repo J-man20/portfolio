@@ -289,7 +289,7 @@ h1{
   }
 
   .slideshow{
-    width:25em;
+    width:20em; /* Stared with 25 em */
     height: auto;
     margin-left:70px;
   }
