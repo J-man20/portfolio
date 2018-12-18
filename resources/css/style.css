@@ -85,6 +85,7 @@ li{
 /*Main Content */
 .name{
   display: flex;
+  width: 100vw;
 }
 
 .left-side{
